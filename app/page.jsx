@@ -37,7 +37,7 @@ export default function Home() {
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
               5
-            </a>{""}.
+            </a>{""} oleh Muhamad Usri Yusron
           </p>
         </div>
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
