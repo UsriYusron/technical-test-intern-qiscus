@@ -1,0 +1,98 @@
+{
+    "results": [
+        {
+            "room": {
+                "name": "Product A",
+                "id": 12456,
+                "image_url": "https://picsum.photos/id/237/200/300",
+                "participant": [
+                    {
+                        "id": "admin@mail.com",
+                        "name": "Admin",
+                        "role": 0
+                    },
+                    {
+                        "id": "agent@mail.com",
+                        "name": "Agent A",
+                        "role": 1
+                    },
+                    {
+                        "id": "customer@mail.com",
+                        "name": "king customer",
+                        "role": 2
+                    }
+                ]
+            },
+            "comments": [
+                {
+                    "id": 885512,
+                    "type": "text",
+                    "message": "Selamat malam",
+                    "sender": "customer@mail.com"
+                },
+                {
+                    "id": 885513,
+                    "type": "text",
+                    "message": "Malam",
+                    "sender": "agent@mail.com"
+                },
+                {
+                    "id": 885514,
+                    "type": "text",
+                    "message": "Ada yang bisa saya bantu?",
+                    "sender": "agent@mail.com"
+                },
+                {
+                    "id": 885515,
+                    "type": "text",
+                    "message": "Saya ingin mengirimkan bukti pembayaran, karena diaplikasi selalu gagal",
+                    "sender": "customer@mail.com"
+                },
+                {
+                    "id": 885516,
+                    "type": "text",
+                    "message": "Baik, silahkan kirimkan lampiran bukti pembayarannya",
+                    "sender": "agent@mail.com"
+                },
+                {
+                    "id": 885517,
+                    "type": "image",
+                    "message": "Bukti pembayaran",
+                    "file": {
+                        "url": "https://example.com/uploads/payment.jpg",
+                        "name": "payment.jpg",
+                        "size": 245678,
+                        "mime_type": "image/jpeg",
+                        "thumbnail": "https://example.com/uploads/thumb_payment.jpg"
+                    },
+                    "sender": "customer@mail.com"
+                },
+                {
+                    "id": 885518,
+                    "type": "video",
+                    "message": "Video unboxing",
+                    "file": {
+                        "url": "https://example.com/uploads/video.mp4",
+                        "name": "video.mp4",
+                        "size": 5423456,
+                        "mime_type": "video/mp4",
+                        "thumbnail": "https://example.com/uploads/video_thumb.jpg"
+                    },
+                    "sender": "customer@mail.com"
+                },
+                {
+                    "id": 885519,
+                    "type": "document",
+                    "message": "Invoice pembelian",
+                    "file": {
+                        "url": "https://example.com/uploads/invoice.pdf",
+                        "name": "invoice.pdf",
+                        "size": 845123,
+                        "mime_type": "application/pdf"
+                    },
+                    "sender": "agent@mail.com"
+                }
+            ]
+        }
+    ]
+}
